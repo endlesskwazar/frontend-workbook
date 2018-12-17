@@ -1,0 +1,16 @@
+{
+  "name": "frontend-workbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-markdown": "^3.0.0",
+    "gulp-markdown-github-style": "^1.1.1",
+    "gulp": "^4.0.0"
+  }
+}
