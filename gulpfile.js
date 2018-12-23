@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-var markdown = require('gulp-markdown-github-style');
+var gulpMdToHtml = require("gulp-md-to-html")
 
 gulp.task('resources', () => {
     return gulp.src('resources/**/*')
@@ -8,7 +8,7 @@ gulp.task('resources', () => {
 
 gulp.task('md', () => {
     return gulp.src('md-text/*.md')
-        .pipe(markdown())
+        .pipe(gulpMdToHtml())
         .pipe(gulp.dest('dist/workbook'));
 });
 

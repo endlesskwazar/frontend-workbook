@@ -9,8 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp-markdown": "^3.0.0",
-    "gulp-markdown-github-style": "^1.1.1",
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-md-to-html": "^1.0.1"
   }
 }
