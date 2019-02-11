@@ -1,5 +1,6 @@
 const gulp = require('gulp');
-var gulpMdToHtml = require("gulp-md-to-html")
+var gulpMdToHtml = require("gulp-md-to-html");
+var presentation = require('gulp-markdown-html-presentation');
 
 gulp.task('resources', () => {
     return gulp.src('resources/**/*')
@@ -12,4 +13,12 @@ gulp.task('md', () => {
         .pipe(gulp.dest('dist/workbook'));
 });
 
-gulp.task('default', gulp.series('resources', 'md'));
+gulp.task('presentations', () => {
+    return gulp.src('md-presentations/*.md')
+        .pipe(presentation({
+            theme: 'default'
+        }))
+        .pipe(gulp.dest('dist/presentations'));
+});
+
+gulp.task('default', gulp.series('resources', 'md', 'presentations'));
