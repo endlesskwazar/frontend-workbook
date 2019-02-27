@@ -21,6 +21,8 @@ div{
 
 # Відступи
 
+![](../resources/img/positioning/img-1.jpeg)
+
 ## margin
 
 Властивість margin задає зовнішні відступи елемента - відступи від зовнішньої межі елементу до кордонів батьківського елемента або до сусідніх елементів.
@@ -221,6 +223,40 @@ main{
 ![](../resources/img/positioning/img-9.png)
 
 
+## background-image
+
+Встановлює фонове зображення для елемента. Якщо одночасно для елемента задано колір фону, він буде показаний, поки фонова картинка не завантажиться повністю. Те ж відбудеться, якщо зображення не доступні або їх показ в браузері відключений. У разі наявності в малюнку прозорих областей, через них буде проглядатися фоновий колір. В CSS3 допустимо вказувати кілька фонових зображень, перераховуючи їх параметри через кому.
+
+```css
+background-image: url(путь к файлу) | none | inherit
+```
+
+
+```html
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>background-image</title>
+  <style>
+   body {
+    background-image: url(images/bg.jpg); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+   }
+  </style>
+   </head>
+ <body>
+  <p>...</p>
+ </body>
+</html>
+```
+
+Якщо фон задається для рядка таблиці (тег &lt;tr&gt;), то Chrome, Safari, iOS відображають його не так, як наказує специфікація, а саме для кожного осередку окремо. У той час як браузер повинен показувати цілісний фон для всього ряду.
+
+![](../resources/img/positioning/img-20.png)
+
+![](../resources/img/positioning/img-21.png)
+
 ## background
 
 Універсальна властивість background дозволяє встановити одночасно до п'яти характеристик фону. Значення можуть йти в будь-якому порядку, браузер сам визначить, яке з них відповідає потрібному властивості.
@@ -253,6 +289,50 @@ height: 200px; / * Висота блоку * /
 
 ![](../resources/img/positioning/img-10.png)
 
+# overflow
+
+Властивість **overflow** управляє відображенням змісту блокового елемента, якщо воно цілком не поміщається і виходить за область заданих розмірів.
+
+```css
+overflow: auto | hidden | scroll | visible | inherit
+```
+
+Можливі значення:
+- visible - Відображається весь зміст елемента, навіть за межами встановленої висоти і ширини.
+- hidden - Відображається лише область всередині елемента, інше буде приховано.
+- scroll - Завжди додаються смуги прокрутки.
+- auto - Смуги прокрутки додаються тільки при необхідності.
+- inherit - Успадковує значення батька.
+
+```html
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>overflow</title>
+  <style>
+   .layer {
+    overflow: scroll; / * Додаємо смуги прокрутки * /
+    width: 300px; / * Ширина блоку * /
+    height: 150px; / * Висота блоку * /
+    padding: 5px; / * Поля навколо тексту * /
+    border: solid 1px black; / * Параметри рамки * /
+   } 
+  </style>
+ </head>
+ <body> 
+   <div class="layer">
+   <h2>Duis te feugifacilisi</h2>
+   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem 
+    nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. 
+    Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit 
+    lobortis nisl ut aliquip ex ea commodo consequat.</p>
+  </div> 
+ </body>
+</html>
+```
+
+![](../resources/img/positioning/img-26.png)
 
 # Inline - блоки
 
@@ -302,7 +382,11 @@ ul li {
 
 ![](../resources/img/positioning/img-12.png)
 
+![](../resources/img/positioning/img-22.png)
 
+## Підтримка inline
+
+![](../resources/img/positioning/img-24.png)
 
 # Плаваючі елементи
 
@@ -403,6 +487,12 @@ section{
 ```
 
 ![](../resources/img/positioning/img-16.png)
+
+![](../resources/img/positioning/img-23.png)
+
+## Підтримка float
+
+![](../resources/img/positioning/img-25.png)
 
 
 # Фіксоване і абсолютне позиціонування
@@ -590,7 +680,7 @@ body {
 
 # Домашнє завдання
 
-Реалізуйте позиціонування блоків Вашого веб - сайта на основі строкових або плаваючих елементів.
+Реалізуйте позиціонування блоків Вашого веб - сайта на основі строкових і плаваючих елементів.
 
 # Контрольні запитання
 
