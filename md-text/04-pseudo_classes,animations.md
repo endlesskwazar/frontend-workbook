@@ -622,7 +622,7 @@ p {
 
 [JSFiddle](https://jsfiddle.net/co8mu0y4/)
 
-### Приклад анімації із використанням keyframes №2
+### Приклад анімації із використанням keyframes №3
 
 ```html
 <p>The Caterpillar and Alice looked at each other for some time in silence:
