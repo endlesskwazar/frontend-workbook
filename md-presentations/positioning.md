@@ -26,6 +26,10 @@ div{
 ## Відступи
 
 
+### Відступи
+![](../resources/img/positioning/img-1.jpeg)
+
+
 ### margin
 Властивість margin задає зовнішні відступи елемента - відступи від зовнішньої межі елементу до кордонів батьківського елемента або до сусідніх елементів.
 
@@ -277,6 +281,44 @@ main{
 ![](../resources/img/positioning/img-9.png)
 
 
+### background-image
+Встановлює фонове зображення для елемента. Якщо одночасно для елемента задано колір фону, він буде показаний, поки фонова картинка не завантажиться повністю. Те ж відбудеться, якщо зображення не доступні або їх показ в браузері відключений. У разі наявності в малюнку прозорих областей, через них буде проглядатися фоновий колір. В CSS3 допустимо вказувати кілька фонових зображень, перераховуючи їх параметри через кому.
+
+
+### background-image
+```css
+background-image: url(путь к файлу) | none | inherit
+```
+
+
+### background-image
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;background-image&lt;/title&gt;
+  &lt;style&gt;
+   body {
+    background-image: url(images/bg.jpg); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+   }
+  &lt;/style&gt;
+   &lt;/head&gt;
+ &lt;body&gt;
+  &lt;p&gt;...&lt;/p&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+```
+
+
+### background-image
+Якщо фон задається для рядка таблиці (тег &lt;tr&gt;), то Chrome, Safari, iOS відображають його не так, як наказує специфікація, а саме для кожного осередку окремо. У той час як браузер повинен показувати цілісний фон для всього ряду.
+
+![](../resources/img/positioning/img-20.png)
+![](../resources/img/positioning/img-21.png)
+
+
 ### background
 Універсальна властивість background дозволяє встановити одночасно до п'яти характеристик фону. Значення можуть йти в будь-якому порядку, браузер сам визначить, яке з них відповідає потрібному властивості.
 
@@ -311,6 +353,63 @@ height: 200px; / * Висота блоку * /
 
 ### background
 ![](../resources/img/positioning/img-10.png)
+
+
+
+## overflow
+
+
+### overflow
+Властивість **overflow** управляє відображенням змісту блокового елемента, якщо воно цілком не поміщається і виходить за область заданих розмірів.
+
+
+### overflow
+```css
+overflow: auto | hidden | scroll | visible | inherit
+```
+
+
+### overflow
+Можливі значення:
+- visible - Відображається весь зміст елемента, навіть за межами встановленої висоти і ширини.
+- hidden - Відображається лише область всередині елемента, інше буде приховано.
+- scroll - Завжди додаються смуги прокрутки.
+- auto - Смуги прокрутки додаються тільки при необхідності.
+- inherit - Успадковує значення батька.
+
+
+### overflow
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;overflow&lt;/title&gt;
+  &lt;style&gt;
+   .layer {
+    overflow: scroll; / * Додаємо смуги прокрутки * /
+    width: 300px; / * Ширина блоку * /
+    height: 150px; / * Висота блоку * /
+    padding: 5px; / * Поля навколо тексту * /
+    border: solid 1px black; / * Параметри рамки * /
+   } 
+  &lt;/style&gt;
+ &lt;/head&gt;
+ &lt;body&gt; 
+   &lt;div class=&quot;layer&quot;&gt;
+   &lt;h2&gt;Duis te feugifacilisi&lt;/h2&gt;
+   &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem 
+    nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. 
+    Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit 
+    lobortis nisl ut aliquip ex ea commodo consequat.&lt;/p&gt;
+  &lt;/div&gt; 
+ &lt;/body&gt;
+&lt;/html&gt;
+```
+
+
+### overflow
+![](../resources/img/positioning/img-26.png)
 
 
 
@@ -372,6 +471,14 @@ ul li {
 
 ### inline - blocks
 ![](../resources/img/positioning/img-12.png)
+
+
+### inline - blocks
+![](../resources/img/positioning/img-22.png)
+
+
+### inline - blocks
+![](../resources/img/positioning/img-24.png)
 
 
 
@@ -494,6 +601,14 @@ section{
 
 ### clearfix
 ![](../resources/img/positioning/img-16.png)
+
+
+### Плаваючі елементи
+![](../resources/img/positioning/img-23.png)
+
+
+### Плаваючі елементи
+![](../resources/img/positioning/img-25.png)
 
 
 

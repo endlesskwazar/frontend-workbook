@@ -565,12 +565,125 @@ div {transition: all 1s ease 0s;}
 
 ## Приклад анімації із використанням keyframes
 
+```html
+<p>The Caterpillar and Alice looked at each other for some time in silence:
+at last the Caterpillar took the hookah out of its mouth, and addressed
+her in a languid, sleepy voice.</p>
+```
+
+```css
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+```
+
+[JSFiddle](https://jsfiddle.net/0zxugscn/)
 
 
+## Приклад анімації із використанням keyframes №2
+
+```html
+<p>The Caterpillar and Alice looked at each other for some time in silence:
+at last the Caterpillar took the hookah out of its mouth, and addressed
+her in a languid, sleepy voice.</p>
+```
+
+```css
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+```
+
+[JSFiddle](https://jsfiddle.net/co8mu0y4/)
+
+### Приклад анімації із використанням keyframes №2
+
+```html
+<p>The Caterpillar and Alice looked at each other for some time in silence:
+at last the Caterpillar took the hookah out of its mouth, and addressed
+her in a languid, sleepy voice.</p>
+```
+
+```css
+p {
+  animation-duration: 6s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    background-color: red;
+  }
+  30% {
+    background-color: orange;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+```
+
+[JSFiddle](https://jsfiddle.net/mayoz7t5/8/)
 
 # Animate.css
 
+[animate.css](https://daneden.github.io/animate.css/) is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
+
+[Документація](https://github.com/daneden/animate.css)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+        <div class="animated shake infinite">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos voluptates architecto sequi quaerat deleniti dolore iure enim ducimus aperiam illum, iste vel repellendus nobis corporis labore sit dicta rem.
+        </div>
+    </section>
+
+</body>
+</html>
+```
+
 # Домашнє завдання
+
+Реалізуйте в вашому веб сайті анімацію за допомогою переходів, keyframes або animate.css.
 
 # Контрольні запитання
 
