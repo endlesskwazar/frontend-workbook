@@ -156,11 +156,7 @@ var arr = [ 1, 'name', { name: 'John' }, true ];
     
 Масиви в JavaScript реалізують структури даних - стек і черга.
 
-## Масив як стек
-
-
-
-## Масив як черга
+## Масив як стек і черга
 
 Кінець масиву:
  -   push() - покласти на вершину стека
@@ -170,15 +166,31 @@ var arr = [ 1, 'name', { name: 'John' }, true ];
 -   shift() - видаляє елемент із початку
 -    unshift() - додає елемент в початок масиву
 
+```js
+var stack = [];
+stack.push(2);
+stack.push(5);
+var i = stack.pop();
+console.log(i);
+
+var queue = [];
+queue.push(2);
+queue.push(5);
+var i = queue.shift();
+console.log(i);  
+```
+
 # Умовні конструкції
 
 ## if...else
 
+```js
     if(умова){
 	    //якщо true
     }else{
 	    //якщо false
     }
+```
     
 В JavaScript є два схожих оператора: == і ===. Якщо не знати їх відмінності, це може обернутися купою помилок.
 Оператор == порівнює на рівність, а === - на ідентичність. Плюс оператора === полягає в тому, що він не приводить два значення до одного типу.
@@ -186,36 +198,41 @@ var arr = [ 1, 'name', { name: 'John' }, true ];
 
 ## Тернарний оператор
 
-
 Умовний (тернарний) оператор - єдиний оператор в JavaScript, що приймає три операнди. Він часто використовується як укороченний варіант оператора if.
 
-    умова ? вираз1 : вираз2
+```js
+умова ? вираз1 : вираз2
     
-    var elvisLives = Math.PI > 4 ? "Так" : "Ні";
-    console.log(elvisLives);
+var elvisLives = Math.PI > 4 ? "Так" : "Ні";
+console.log(elvisLives);
+```
 
 ## switch
 
-    var a = 2 + 2;
-    switch (a) {
-     case  3: console.log('Мало');
-	     break;
-     case  4: console.log('В точку!');
-	     break;
-     case  5: console.log('Багато');
-	     break; 
-     default: console.log('Таких значень бути не може!'); 
-     }
+```js
+var a = 2 + 2;
+switch (a) {
+    case  3: console.log('Мало');
+        break;
+    case  4: console.log('В точку!');
+        break;
+    case  5: console.log('Багато');
+        break; 
+    default: console.log('Таких значень бути не може!'); 
+}
+```
 
 Провалювання.
 
-    var a = 1;
-  
-    switch(a){
-	    case  1: console.log(1);
-	    case  2: console.log(2);
-	    default: console.log(3);
-    }
+```js
+var a = 1;
+
+switch(a){
+    case  1: console.log(1);
+    case  2: console.log(2);
+    default: console.log(3);
+}
+```
 
 # Циклічні конструкції
 **Цикл** — різновид керівної конструкції у високорівневих мовах програмування, призначена для організації багаторазового виконання набору інструкцій (команд).
@@ -231,42 +248,60 @@ var arr = [ 1, 'name', { name: 'John' }, true ];
 
 ## Цикл з передумовою while
 
-    while  (умова) {
-     // тіло 
-    }
+```js
+while  (умова) {
+    // тіло 
+}
+```
 
 ## Цикл з післяумовою do..while
 
-    do{
-     //вираз
-    } while (умова);
+```js
+do{
+    //вираз
+} while (умова);
+```
 
 ## Цикл з лічильником for
-	
 
-    for (початок; умова; крок) {
-     // тіло 
-     }
+```js
+for (початок; умова; крок) {
+    // тіло 
+}
+```
+
 # Функції
 
-    function назва(параметри){
-     тіло функції 
-    } 
-    function print(text, withEndl){
-	    console.log(text);
-    } 
-    var ім'я = function(параметри){
-     тіло функції
-    } 
-    var print = function(text, withEndl){
-     console.log(text);
-    }
+Об'єктами першого класу (англ. First-class object, first-class entity, first-class citizen) в контексті конкретної мови програмування називаються елементи, які можуть бути передані як параметр, повернуті з функції, присвоєні змінної.
+
+В JavaScript функції є об'єктами першого класу.
+
+```js
+function назва(параметри){
+    тіло функції 
+} 
+
+function print(text, withEndl){
+    console.log(text);
+} 
+
+var ім'я = function(параметри){
+    тіло функції
+} 
+
+var print = function(text, withEndl){
+    console.log(text);
+}
+```
+
 ## Параметри за замовчуванням(ES5)
 
-    function multiply(a, b) {
-    b = typeof b !== 'undefined' ? b : 1; return a*b;
-    } 
-    multiply(5); // 5
+```js
+function multiply(a, b) {
+b = typeof b !== 'undefined' ? b : 1; return a*b;
+} 
+multiply(5); // 5
+```
 
 ## Область видимості в JavaScript
 
@@ -296,133 +331,178 @@ function some(){
 }
 
 function some2(){
-    console.log(3);
+    console.log(a);
 }
 ```
 
 ### var в for і if
 
+var в циклах і умовних конструкція виходять за свю область видимості:
 
+```js
+for(var i = 0; i < 5; i++ ){
+    print(i);
+}
 
+print(i); //prints 5
+
+if(i > 4){
+    var b = 77;
+}
+
+print(b); //prints 77
+```
 
 ## use strict
 
+Дуже довго мову JavaScript розвивався без втрати сумісності. Нові можливості додавалися в мову, але старі - ніколи не змінювалися, щоб не «зламати» вже існуючі HTML / JS-сторінки з їх використанням.
+
+Однак, це призвело до того, що будь-яка помилка в дизайні мови ставала «вморожених» в нього назавжди.
+
+Так було до появи стандарту ECMAScript 5 (ES5), який одночасно додав нові можливості і вніс в мову ряд виправлень, які можуть привести до того, що старий код, який був написаний до його появи, перестане працювати.
+
+Щоб цього не сталося, вирішили, що за замовчуванням ці небезпечні зміни будуть вимкнені, і код буде працювати по-старому. А для того, щоб перевести код в режим повної відповідності сучасним стандартом, потрібно вказати спеціальну директиву use strict.
+
+```js
+"use strict";
+
+a = 3; //error
+```
 
 ## Функція зворотнього виклику Callback
+
 **Простими словами:** callback - це функція, яка повинна бути виконана після того, як інша функція завершила виконання (звідси і назва: callback - функція зворотного виклику).
 **Трохи складніше:** В JavaScript функції - це об'єкти. Тому функції можуть приймати інші функції в якості аргументів, а також функції можуть повертати функції в якості результату. Функції, які це вміють, називаються функціями вищого порядку. А будь-яка функція, яка передається як аргумент, називається callback-функцією.
 Callback потрібні з однієї простої причини - JavaScript це подієво-орієнтована мова. Це означає, що замість того, щоб чекати відповіді для подальшого виконання програми, JavaScript продовжить виконання, одночасно чекаючи інших подій. Давайте розберемо простий приклад:
 
-    function first(){
-     console.log(1);
-    } 
-    function second(){
-    console.log(2);
-    } 
-    first();
-    second();
+```js
+function first(){
+    console.log(1);
+} 
+function second(){
+console.log(2);
+} 
+first();
+second();
+```
+
 Як ви і чекаєте, функція first виконається першої, а функція second після неї, і в консолі буде виведений наступний результат:
 
+```js
     // 1 
     // 2
+```
+
 Поки що все зрозуміло. Але що якщо функція first містить якийсь код, який не може виконаєтися негайно? Наприклад, запит до API, де ми відправляємо запит і повинні чекати відповіді. Щоб змоделювати таку ситуацію, ми використовуємо функцію setTimeout
 
-    function first(){
-	    setTimeout( function(){ 
-	    console.log(1);
-     }, 500 ); } 
-    function second(){ console.log(2); } 
-    first(); 
-    second();
+```js
+function first(){
+    setTimeout( function(){ 
+    console.log(1);
+    }, 500 ); } 
+function second(){ console.log(2); } 
+first(); 
+second();
+```
+
 Неважливо, чи розумієте ви зараз, як працює setTimout (). Основна ідея - тепер ми відклали виконання команди console.log (1) на 500 мілісекунд. І що тепер виведе наша програма?
 
+```js
     // 2
     // 1
+```
     
- 
-    function doHomework(subject) {
-     console.log(`Starting my ${subject} homework.`);
-    } 
-    doHomework('math'); // Starting my math homework.
-
-    function doHomework(subject, callback) {
-	    console.log(`Starting my ${subject} homework.`);
-	    callback(); 
-    } 
-    doHomework('math', function() { 
-	    console.log('Finished my homework');
-    });
-
-    function doHomework(subject, callback) {
+ ```js
+function doHomework(subject) {
     console.log(`Starting my ${subject} homework.`);
-    callback(); 
-    } function alertFinished(){
+}
+doHomework('math'); // Starting my math homework.
+
+function doHomework(subject, callback) {
+    console.log(`Starting my ${subject} homework.`);
+    callback();
+}
+doHomework('math', function () {
     console.log('Finished my homework');
-    } 
-    doHomework('math', alertFinished);
+});
+
+function doHomework(subject, callback) {
+    console.log(`Starting my ${subject} homework.`);
+    callback();
+} function alertFinished() {
+    console.log('Finished my homework');
+}
+doHomework('math', alertFinished);
+```
 
 # Java Script. ООП
 
-    function Person(name, age){
+![](../resources/img/js/img-1.png)
+
+```js
+    function Person(name, age) {
     this.name = name;
     this.age = age;
-    this.sayHi = function(){
-     console.log("Hi my name is " + this.name);
-    } } 
-    var person = new Person("Alex", 13);
-    person.sayHi(); console.log(person.age);
+    this.sayHi = function () {
+        console.log("Hi my name is " + this.name);
+    }
+}
+var person = new Person("Alex", 13);
+person.sayHi(); console.log(person.age);
 
-	//add to prototype
-    function Animal(name, speed){
-	    this.name = name; this.speed = speed;
-    } 
-    Animal.prototype.sayHi = function(){
-	    console.log("Hi my name is " + name);
-    } 
-    var animal = new Animal("Jeck", 200); 
-    console.log(animal.sayHi());
-    //__proto__ vs prototype
-    function Animal(name, speed){
-	    this.name = name; this.speed = speed;
-    } 
-    Animal.prototype.sayHi = function(){
-	    console.log("Hi my name is " + this.name);
-	} 
-	Animal.prototype.__proto__.sayNumber = function(){
-		console.log(1);
-	} 
-	var animal = new Animal("Jeck", 200);
-	animal.sayHi();
-	animal.sayNumber();
-	//Inheritance
-	function Animal(name, speed){
-	this.name = name;
-	this.speed = speed;
-	this.sayHi = function(){
-	console.log("Hi im animal");
-	} 
-	} 
-	function Rabbit(name, speed){
-	Animal.call(this, name, speed);
-	this.sayHi = function(){
-	console.log("Hi im rabbit" + this.name);
-	 } }
-	Rabbit.prototype.__proto__ = new Animal(); 
-	Rabbit.prototype.constructor = Rabbit;
-	var rabbit = new Rabbit("Jeck", 200);
-	rabbit.sayHi();
-	//private
-	function A(){
-		var a = "This text from private field";
-		this.b = "This text from public";
-		this.sayPrivate = function(){
-		console.log(a);
-		}
-		} 
-	var a = new A();
-	console.log(a.a);
-	console.log(a.b);
-	 a.sayPrivate();
+//add to prototype
+function Animal(name, speed) {
+    this.name = name; this.speed = speed;
+}
+Animal.prototype.sayHi = function () {
+    console.log("Hi my name is " + name);
+}
+var animal = new Animal("Jeck", 200);
+console.log(animal.sayHi());
+//__proto__ vs prototype
+function Animal(name, speed) {
+    this.name = name; this.speed = speed;
+}
+Animal.prototype.sayHi = function () {
+    console.log("Hi my name is " + this.name);
+}
+Animal.prototype.__proto__.sayNumber = function () {
+    console.log(1);
+}
+var animal = new Animal("Jeck", 200);
+animal.sayHi();
+animal.sayNumber();
+//Inheritance
+function Animal(name, speed) {
+    this.name = name;
+    this.speed = speed;
+    this.sayHi = function () {
+        console.log("Hi im animal");
+    }
+}
+function Rabbit(name, speed) {
+    Animal.call(this, name, speed);
+    this.sayHi = function () {
+        console.log("Hi im rabbit" + this.name);
+    }
+}
+Rabbit.prototype.__proto__ = new Animal();
+Rabbit.prototype.constructor = Rabbit;
+var rabbit = new Rabbit("Jeck", 200);
+rabbit.sayHi();
+//private
+function A() {
+    var a = "This text from private field";
+    this.b = "This text from public";
+    this.sayPrivate = function () {
+        console.log(a);
+    }
+}
+var a = new A();
+console.log(a.a);
+console.log(a.b);
+a.sayPrivate();
+```
 
 # Контрольні запитання
 
