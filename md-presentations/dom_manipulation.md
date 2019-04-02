@@ -549,3 +549,5 @@ function clickHandler(event) {
 
 
 ### Приклад
+
+[JSFiddle](https://jsfiddle.net/nmd1wr02/26/)
