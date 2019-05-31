@@ -229,5 +229,6 @@ align-self: auto | flex-start |
 
 
 
-##
-![Flexbox Froggy](http://flexboxfroggy.com/#uk)
+## Flexbox Froggy
+
+[Flexbox Froggy](http://flexboxfroggy.com/#uk)
