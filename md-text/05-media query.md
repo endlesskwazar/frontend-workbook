@@ -87,3 +87,11 @@ ${toc}
 
 # Контрольні запитання
 
+1. dsfsdf
+2. sdfsdf
+3. sdfsdf
+4. sdfsdf
+5. sdfsdf
+6. sdfsdfs
+7. sdfsdfsdf
+
