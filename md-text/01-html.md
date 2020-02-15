@@ -744,15 +744,8 @@ Title 1 <hr /> Title 2 <hr />
 
 ```html
 <body>
-<header>
-  <h1>Пудель</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="about.html">О породе</a></li>
-        <li><a href="health.html">Здоровье</a></li>
-      </ul>
-    </nav>
+  <header>
+    ...
   </header>
   <main>
     <section>
@@ -785,11 +778,16 @@ Title 1 <hr /> Title 2 <hr />
       </footer>
       </section>
     </main>
+
     <footer>
-      <small>Copyright © <time datetime="2016">2016</time> Моя собака.ру</small>
+      ...
     </footer>
 </body>
 ```
+
+## Приклад HTML5ю Використання семантичних тегів
+
+[Codepen. Frontend-workbook. HTML5 semantic basic example.](https://codepen.io/endlesskwazar/pen/eYNZNvx)
 
 # Домашнє завдання
 
