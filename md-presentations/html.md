@@ -830,51 +830,50 @@ Title 1 <hr /> Title 2 <hr />
 
 ### main
 ```html
-&lt;body&gt;
-&lt;header&gt;
-  &lt;h1&gt;Пудель&lt;/h1&gt;
-    &lt;nav&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Главная&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;О породе&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;health.html&quot;&gt;Здоровье&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/nav&gt;
-  &lt;/header&gt;
-  &lt;main&gt;
-    &lt;section&gt;
-      &lt;header&gt;
-        &lt;h2&gt;О породе&lt;/h2&gt;
-          &lt;nav&gt;
-            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#basic&quot;&gt;Разновидности&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#app&quot;&gt;Внешний вид&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#temp&quot;&gt;Характер&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/nav&gt;
-      &lt;/header&gt;
-      &lt;section id=&quot;basic&quot;&gt;
-        &lt;h3&gt;Разновидности&lt;/h3&gt;
-          &lt;p&gt;...&lt;/p&gt;
-      &lt;/section&gt;
-      &lt;section id=&quot;app&quot;&gt;
-        &lt;h3&gt;Внешний вид&lt;/h3&gt;
-          &lt;p&gt;...&lt;/p&gt;
-      &lt;/section&gt;
-      &lt;section id=&quot;temp&quot;&gt;
-        &lt;h3&gt;Характер&lt;/h3&gt;
-          &lt;p&gt;...&lt;/p&gt;
-      &lt;/section&gt;
-      &lt;footer&gt;
-        &lt;a href=&quot;#basic&quot;&gt;Разновидности&lt;/a&gt;
-        &lt;a href=&quot;#app&quot;&gt;Внешний вид&lt;/a&gt;
-        &lt;a href=&quot;#temp&quot;&gt;Характер&lt;/a&gt;
-      &lt;/footer&gt;
-      &lt;/section&gt;
-    &lt;/main&gt;
-    &lt;footer&gt;
-      &lt;small&gt;Copyright &copy; &lt;time datetime=&quot;2016&quot;&gt;2016&lt;/time&gt; Моя собака.ру&lt;/small&gt;
-    &lt;/footer&gt;
-&lt;/body&gt;
+<body>
+  <header>
+    ...
+  </header>
+  <main>
+    <section>
+      <header>
+        <h2>О породе</h2>
+          <nav>
+            <ul>
+              <li><a href="#basic">Разновидности</a></li>
+              <li><a href="#app">Внешний вид</a></li>
+              <li><a href="#temp">Характер</a></li>
+            </ul>
+          </nav>
+      </header>
+      <section id="basic">
+        <h3>Разновидности</h3>
+          <p>...</p>
+      </section>
+      <section id="app">
+        <h3>Внешний вид</h3>
+          <p>...</p>
+      </section>
+      <section id="temp">
+        <h3>Характер</h3>
+          <p>...</p>
+      </section>
+      <footer>
+        <a href="#basic">Разновидности</a>
+        <a href="#app">Внешний вид</a>
+        <a href="#temp">Характер</a>
+      </footer>
+      </section>
+    </main>
+
+    <footer>
+      ...
+    </footer>
+</body>
 ```
+
+
+### HTML5 semantic example
+
+[Codepen. Frontend-workbook. HTML5 semantic basic example.](https://codepen.io/endlesskwazar/pen/eYNZNvx)
 
