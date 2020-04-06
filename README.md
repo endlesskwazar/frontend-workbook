@@ -17,7 +17,7 @@
 |Голобородько О.В.|3|6|-|-|-|-|-|-|-|-|-|-|
 |Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
-|Крохальов О.О.|-|-|-|-|-|-|-|-|-|-|-|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
+|Крохальов О.О.|6|6|6|6|6|6|6|6|6|-|-|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
 |Курганський І.Ю.|6|-|-|-|-|-|-|-|-|-|-|-|
 |Мартюк М.Ю.|6|6|-|-|-|-|-|-|-|-|-|[repo](https://github.com/Marynok/pharmacy_network_m)|
 |Марченко Д.С.|-|-|-|-|-|-|-|-|-|-|-|[repo](https://bitbucket.org/Denis_Marchenko/front-end-dm/src/master/)|
