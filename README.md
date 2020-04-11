@@ -14,25 +14,23 @@
 |Вакарчук Д.В.|6|6|6|6|-|-|-|-|-|-|-|[repo](https://github.com/AnakonDRaG/Photographer-website-Frontend)|
 |Вітюк І.В.|6|-|-|-|-|-|-|-|-|-|-|-|
 |Водоріз О.О.|-|-|-|-|-|-|-|-|-|-|-|https://github.com/hellhellpnick/front-end|
-|Голобородько О.В.|3|6|-|-|-|-|-|-|-|-|-|-|
+|Голобородько О.В.|3|6|-|-|-|-|-|-|-|-|-|[repo](https://github.com/Oleksii-Goloborodko/WEB_lab.git)|
 |Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Крохальов О.О.|6|6|6|6|6|6|6|6|6|-|-|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
-|Курганський І.Ю.|6|-|-|-|-|-|-|-|-|-|-|-|
+|Курганський І.Ю.|6|-|-|-|-|-|-|-|-|-|-|https://github.com/vnkrg/frontend-lab|
 |Мартюк М.Ю.|6|6|6|-|-|-|-|-|-|-|-|[repo](https://github.com/Marynok/pharmacy_network_m)|
 |Марченко Д.С.|3|3|-|-|-|-|-|-|-|-|-|[repo](https://bitbucket.org/Denis_Marchenko/front-end-dm/src/master/)|
 |Матченко С.О.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Некрасов В.В.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Осадчий А.В.|-|-|-|-|-|-|-|-|-|-|-|-|
-|Подпарінов В.А.|6|6|-|-|-|-|-|-|-|-|-|-|
-|Семеніхіна О.О.|-|-|-|-|-|-|-|-|-|-|-|https://github.com/helenseven/WD_semenikhina_o|
 |Подпарінов В.А.|6|6|-|-|-|-|-|-|-|-|-|https://github.com/Kaninka12/site_gameNews.git|
-|Семеніхіна О.О.|-|-|-|-|-|-|-|-|-|-|-|-|
+|Семеніхіна О.О.|3|-|-|-|-|-|-|-|-|-|-|https://github.com/helenseven/WD_semenikhina_o|
 |Сіренко Д.О.|-|-|-|-|-|-|-|-|-|-|-|[repo](https://bitbucket.org/XRicko/wd/src/master/)|
-|Татарчук І.А.|6|-|-|-|-|-|-|-|-|-|-|-|
+|Татарчук І.А.|6|-|-|-|-|-|-|-|-|-|-|https://github.com/IhorTatarchuk/Web|
 |Титаренко П.Ю.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Трамбовецький Б.О.|-|-|-|-|-|-|-|-|-|-|-|-|
-|Усенко Б.Ю.|6|-|-|-|-|-|-|-|-|-|-|-|
+|Усенко Б.Ю.|6|-|-|-|-|-|-|-|-|-|-|https://github.com/UsenkoBogdan/Frontend|
 
 # Теми
 
