@@ -14,7 +14,7 @@
 |Вакарчук Д.В.|6|6|6|6|-|-|-|-|-|-|-|[repo](https://github.com/AnakonDRaG/Photographer-website-Frontend)|
 |Вітюк І.В.|6|-|-|-|-|-|-|-|-|-|-|-|
 |Водоріз О.О.|-|-|-|-|-|-|-|-|-|-|-|https://github.com/hellhellpnick/front-end|
-|Голобородько О.В.|3|6|-|-|-|-|-|-|-|-|-|[repo](https://github.com/Oleksii-Goloborodko/WEB_lab.git)|
+|Голобородько О.В.|3|6|6|6|-|-|-|-|-|-|-|[repo](https://github.com/Oleksii-Goloborodko/WEB_lab.git)|
 |Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Крохальов О.О.|6|6|6|6|6|6|6|6|6|-|-|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
