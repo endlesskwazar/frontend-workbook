@@ -14,11 +14,11 @@
 |Вакарчук Д.В.|6|6|6|6|6|-|-|-|-|-|-|[repo](https://github.com/AnakonDRaG/Photographer-website-Frontend)|
 |Вітюк І.В.|6|-|-|-|-|-|-|-|-|-|-|-|
 |Водоріз О.О.|6|6|6|6|6|6|6|6|6|-|-|https://github.com/hellhellpnick/front-end|
-|Голобородько О.В.|3|6|6|6|-|-|-|-|-|-|-|[repo](https://github.com/Oleksii-Goloborodko/WEB_lab.git)|
+|Голобородько О.В.|3|6|6|6|?|-|-|-|-|-|-|[repo](https://github.com/Oleksii-Goloborodko/WEB_lab.git)|
 |Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Крохальов О.О.|6|6|6|6|6|6|6|6|6|-|-|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
-|Курганський І.Ю.|6|6|6|?|-|-|-|-|-|-|-|https://github.com/vnkrg/frontend-lab|
+|Курганський І.Ю.|6|6|6|3|6|6|6|6|6|-|-|https://github.com/vnkrg/frontend-lab|
 |Мартюк М.Ю.|6|6|6|5|-|-|-|-|-|-|-|[repo](https://github.com/Marynok/pharmacy_network_m)|
 |Марченко Д.С.|3|6|?|?|-|-|-|-|-|-|-|[repo](https://bitbucket.org/Denis_Marchenko/front-end-dm/src/master/)|
 |Матченко С.О.|-|-|-|-|-|-|-|-|-|-|-|-|
