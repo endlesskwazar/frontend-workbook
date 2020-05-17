@@ -25,8 +25,8 @@
 |Некрасов В.В.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Осадчий А.В.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Подпарінов В.А.|6|6|3|3|6|6|?|6|6|-|-|https://github.com/Kaninka12/site_gameNews.git|
-|Семеніхіна О.О.|3|3|3|6|?|-|-|-|-|-|-|https://github.com/helenseven/WD_semenikhina_o|
-|Сіренко Д.О.|6|6|6|6|-|-|-|-|-|-|-|[repo](https://bitbucket.org/XRicko/wd/src/master/)|
+|Семеніхіна О.О.|3|3|3|6|?|?|?|?|?|-|-|https://github.com/helenseven/WD_semenikhina_o|
+|Сіренко Д.О.|6|6|6|6|6|6|?|6|6|-|-|[repo](https://bitbucket.org/XRicko/wd/src/master/)|
 |Татарчук І.А.|6|6|6|6|-|-|-|-|-|-|-|https://github.com/IhorTatarchuk/Web|
 |Титаренко П.Ю.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Трамбовецький Б.О.|-|-|-|-|-|-|-|-|-|-|-|-|
