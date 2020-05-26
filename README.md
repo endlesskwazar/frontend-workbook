@@ -11,13 +11,13 @@
 
 |Студент|Лб1|Лб2|Лб3|Лб4|Лб5|Лб6|Лб7|Лб8|Лб9|КР|ПР|Репозиторій|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
-|Вакарчук Д.В.|6|6|6|6|6|6|6|6|6|-|-|[repo](https://github.com/AnakonDRaG/Photographer-website-Frontend)|
+|Вакарчук Д.В.|6|6|6|6|6|6|6|6|6|8|8|[repo](https://github.com/AnakonDRaG/Photographer-website-Frontend)|
 |Вітюк І.В.|6|-|-|-|-|-|-|-|-|-|-|-|
 |Водоріз О.О.|6|6|6|6|6|6|6|6|6|-|-|https://github.com/hellhellpnick/front-end|
 |Голобородько О.В.|3|6|6|6|3|?|?|?|?|-|-|[repo](https://github.com/Oleksii-Goloborodko/WEB_lab.git)|
 |Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
-|Крохальов О.О.|6|6|6|6|6|6|6|6|6|-|-|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
+|Крохальов О.О.|6|6|6|6|6|6|6|6|6|8|8|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
 |Курганський І.Ю.|6|6|6|3|6|6|6|6|6|-|-|https://github.com/vnkrg/frontend-lab|
 |Мартюк М.Ю.|6|6|6|5|6|6|6|6|6|-|-|[repo](https://github.com/Marynok/pharmacy_network_m)|
 |Марченко Д.С.|3|6|?|?|?|?|?|?|?|-|-|[repo](https://bitbucket.org/Denis_Marchenko/front-end-dm/src/master/)|
