@@ -13,7 +13,7 @@
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Вакарчук Д.В.|6|6|6|6|6|6|6|6|6|8|8|[repo](https://github.com/AnakonDRaG/Photographer-website-Frontend)|
 |Вітюк І.В.|6|-|-|-|-|-|-|-|-|-|-|-|
-|Водоріз О.О.|6|6|6|6|6|6|6|6|6|-|-|https://github.com/hellhellpnick/front-end|
+|Водоріз О.О.|6|6|6|6|6|6|6|6|6|7|4|https://github.com/hellhellpnick/front-end|
 |Голобородько О.В.|3|6|6|6|3|?|?|?|?|-|-|[repo](https://github.com/Oleksii-Goloborodko/WEB_lab.git)|
 |Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
