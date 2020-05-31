@@ -19,7 +19,7 @@
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Крохальов О.О.|6|6|6|6|6|6|6|6|6|8|8|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
 |Курганський І.Ю.|6|6|6|3|6|6|6|6|6|7|8|https://github.com/vnkrg/frontend-lab|
-|Мартюк М.Ю.|6|6|6|5|6|6|6|6|6|-|-|[repo](https://github.com/Marynok/pharmacy_network_m)|
+|Мартюк М.Ю.|6|6|6|5|6|6|6|6|6|8|7|[repo](https://github.com/Marynok/pharmacy_network_m)|
 |Марченко Д.С.|3|6|?|?|?|?|?|?|?|-|-|[repo](https://bitbucket.org/Denis_Marchenko/front-end-dm/src/master/)|
 |Матченко С.О.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Некрасов В.В.|-|-|-|-|-|-|-|-|-|-|-|-|
