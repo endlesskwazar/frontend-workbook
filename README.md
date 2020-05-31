@@ -18,13 +18,13 @@
 |Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Крохальов О.О.|6|6|6|6|6|6|6|6|6|8|8|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
-|Курганський І.Ю.|6|6|6|3|6|6|6|6|6|-|-|https://github.com/vnkrg/frontend-lab|
+|Курганський І.Ю.|6|6|6|3|6|6|6|6|6|7|8|https://github.com/vnkrg/frontend-lab|
 |Мартюк М.Ю.|6|6|6|5|6|6|6|6|6|-|-|[repo](https://github.com/Marynok/pharmacy_network_m)|
 |Марченко Д.С.|3|6|?|?|?|?|?|?|?|-|-|[repo](https://bitbucket.org/Denis_Marchenko/front-end-dm/src/master/)|
 |Матченко С.О.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Некрасов В.В.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Осадчий А.В.|-|-|-|-|-|-|-|-|-|-|-|-|
-|Подпарінов В.А.|6|6|3|3|6|6|6|6|6|-|-|https://github.com/Kaninka12/site_gameNews.git|
+|Подпарінов В.А.|6|6|3|3|6|6|6|6|6|6|8|https://github.com/Kaninka12/site_gameNews.git|
 |Семеніхіна О.О.|3|3|3|6|?|?|?|?|?|-|-|https://github.com/helenseven/WD_semenikhina_o|
 |Сіренко Д.О.|6|6|6|6|6|6|6|6|6|-|-|[repo](https://bitbucket.org/XRicko/wd/src/master/)|
 |Татарчук І.А.|6|6|6|6|6|-|-|-|-|-|-|https://github.com/IhorTatarchuk/Web|
