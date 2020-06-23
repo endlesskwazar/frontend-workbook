@@ -15,7 +15,7 @@
 |Вітюк І.В.|6|-|-|-|-|-|-|-|-|-|-| https://github.com/MIGULAI/front|
 |Водоріз О.О.|6|6|6|6|6|6|6|6|6|7|4|https://github.com/hellhellpnick/front-end|
 |Голобородько О.В.|3|6|6|6|3|?|?|?|?|-|-|[repo](https://github.com/Oleksii-Goloborodko/WEB_lab.git)|
-|Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|
+|Єфремов Р.К.|-|-|-|-|-|-|-|-|-|-|-|-|https://github.com/KN18EfremovR/WD
 |Клименко А.С.|-|-|-|-|-|-|-|-|-|-|-|-|
 |Крохальов О.О.|6|6|6|6|6|6|6|6|6|8|8|[repo](https://github.com/DealUnloker/dealunloker.github.io)|
 |Курганський І.Ю.|6|6|6|3|6|6|6|6|6|7|8|https://github.com/vnkrg/frontend-lab|
